@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Praticando 2: Tabelas com rowspan e colspan</title>
+        <style>
+            table,th,td {
+                border: 1px solid black;
+            }
+            td{
+                padding: 30px 60px;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Tabelas 2: Rowspan e Colspan</h1>
+        <a href="index.html">De volta ao menu principal</a>
+        <br><br>
+
+        <table>
+            <caption>Colspan</caption>
+            <tr>
+                <td colspan="2">Colspan</td>
+            </tr>
+            <tr>
+                <td> - </td>
+                <td> - </td>
+            </tr>
+        </table>
+        <br><br>
+
+        <table>
+            <caption>Rowspan</caption>
+            <tr>
+                <td> - </td>
+                <td rowspan="2">Rowspan</td>
+            </tr>
+            <tr>
+                <td> - </td>
+            </tr>
+        </table>
+        <br><br>
+
+        <table>
+            <caption>Híbrido</caption>
+            <tr>
+                <td colspan="2">Colspan</td>
+                <td> - </td>
+                <td rowspan="2" >Rowspan</td>
+            </tr>
+            <tr>
+                <td> - </td>
+                <td> - </td>
+                <td> - </td>
+            </tr>
+            <tr>
+                <td> - </td>
+                <td colspan="3"> Colspan </td>
+            </tr>
+        </table>
+    </body>
+</html>

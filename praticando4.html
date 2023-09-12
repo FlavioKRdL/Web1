@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tabelas Simples com CSS</title>
+        <style>
+            table,tr,td{
+                border: 1px solid black;
+            }
+            td{
+                padding: 20px 60px;
+                text-align: center;
+                font-size: 16px;
+            }
+            .tr1{
+                background-color: green;
+            }
+            .trImpar{
+                background-color: greenyellow;
+            }
+
+            .table2 tr:first-child{
+                background-color: gray;
+            }
+
+            .tr2Par{
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Tabelas simples com CSS</h1>
+        <a href="index.html">Voltar ao menu principal</a>
+        <br><br>
+
+        <h2>Estilo 1</h2>
+        <table class="table1">
+            <caption>Tabela 5x4</caption>
+            <tr class="tr1">
+                <td>Aa</td>
+                <td>Ab</td>
+                <td>Ac</td>
+                <td>Ad</td>
+            </tr>
+            <tr>
+                <td>Ba</td>
+                <td>Bb</td>
+                <td>Bc</td>
+                <td>Bd</td>
+            </tr>
+            <tr class="trImpar">
+                <td>Ca</td>
+                <td>Cb</td>
+                <td>Cc</td>
+                <td>Cd</td>
+            </tr>
+            <tr>
+                <td>Da</td>
+                <td>Db</td>
+                <td>Dc</td>
+                <td>Dd</td>
+            </tr>
+            <tr class="trImpar">
+                <td>Ea</td>
+                <td>Eb</td>
+                <td>Ec</td>
+                <td>Ed</td>
+            </tr>
+        </table>
+        <br><br>
+
+        <table class="table2">
+            <caption>Tabela 5x4</caption>
+            <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+            </tr>
+            <tr class="tr2Par">
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>31</td>
+                <td>32</td>
+                <td>33</td>
+                <td>34</td>
+            </tr>
+            <tr class="tr2Par">
+                <td>41</td>
+                <td>42</td>
+                <td>43</td>
+                <td>44</td>
+            </tr>
+            <tr>
+                <td>51</td>
+                <td>52</td>
+                <td>53</td>
+                <td>54</td>
+            </tr>
+        </table>
+    </body>
+</html>

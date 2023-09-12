@@ -1,0 +1,28 @@
+table, tr, td{
+    border: 1px solid black;
+}
+
+.table1 td{
+    padding: 20px 60px;
+    text-align: center;
+}
+
+.table1 #t1tr1, #l1{
+    background-color: green;
+}
+
+#t1tr2, #l2{
+    background-color: red;
+}
+
+#t1tr3, #l3{
+    background-color: royalblue;
+}
+
+#t1tr4, #l4{
+    background-color: hotpink;
+}
+
+.table2 td{
+    text-align: center;
+}
